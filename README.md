@@ -1,16 +1,28 @@
-## Hi there 👋
+## Hi, I'm Enmanuel 👋
 
-<!--
-**EnmanuelMejia/EnmanuelMejia** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+DevSecOps Engineer focused on building secure, 
+automated cloud infrastructure that ships fast 
+and breaks rarely.
 
-Here are some ideas to get you started:
+🔭 Currently building → **devops-superlab**  
+   Kubernetes + GitOps + CI/CD + IaC, 
+   production-ready and interview-demonstrated
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🛠 Stack  
+   Docker · Kubernetes · Terraform · Ansible  
+   AWS · Azure · Jenkins · GitHub Actions  
+   Python · Bash · PowerShell · Linux (RHEL)
+
+🔐 Security Philosophy  
+   Shift-left security isn't a feature — 
+   it's the architecture.
+
+🌱 Currently studying  
+   CompTIA Security+ · AWS Solutions Architect
+
+💬 Ask me about  
+   Cloud automation · VoIP/PBX on RHEL · 
+   Standing up infrastructure from scratch
+
+📫 Reach me → edmejia@pm.me (ProtonMail — 
+   because email privacy matters)
