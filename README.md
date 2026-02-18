@@ -11,7 +11,7 @@ and breaks rarely.
 🛠 Stack  
    Docker · Kubernetes · Terraform · Ansible  
    AWS · Azure · Jenkins · GitHub Actions  
-   Python · Bash · PowerShell · Linux (RHEL)
+   Python · Bash · PowerShell · Linux (RHEL, Fedora, Kali, Ubuntu)
 
 🔐 Security Philosophy  
    Shift-left security isn't a feature — 
@@ -21,7 +21,7 @@ and breaks rarely.
    CompTIA Security+ · AWS Solutions Architect
 
 💬 Ask me about  
-   Cloud automation · VoIP/PBX on RHEL · 
+   IT Cloud certifications · Infrustructure automation · RHEL · Fedora · Kali· Ubuntu
    Standing up infrastructure from scratch
 
 📫 Reach me → edmejia@pm.me (ProtonMail — 
