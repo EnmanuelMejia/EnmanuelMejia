@@ -1,28 +1,31 @@
 ## Hi, I'm Enmanuel 👋
 
-DevSecOps Engineer focused on building secure, 
-automated cloud infrastructure that ships fast 
-and breaks rarely.
+Junior **Cloud / DevOps** engineer with a paid background in **IT operations and technical support** — incident troubleshooting, Linux/Windows administration, and hybrid cloud services for large user environments.
 
-🔭 Currently building → **devops-superlab**  
-   Kubernetes + GitOps + CI/CD + IaC, 
-   production-ready and interview-demonstrated
+I build and demo cloud-native labs that hiring managers can inspect end-to-end.
 
-🛠 Stack  
-   Docker · Kubernetes · Terraform · Ansible  
-   AWS · Azure · Jenkins · GitHub Actions  
-   Python · Bash · PowerShell · Linux (RHEL, Fedora, Kali, Ubuntu)
+### Featured work
 
-🔐 Security Philosophy  
-   Shift-left security isn't a feature — 
-   it's the architecture.
+- **[devops-superlab](https://github.com/EnmanuelMejia/devops-superlab)** — Kubernetes + GitOps + CI/CD + IaC **portfolio lab** (not paid production), designed for live interview demos
+- **[Interstitium Labs](https://interstitiumlabs.dev)** — knowledge operating system I’m building for research, runbooks, and technical decisions
+- **Lawrence Public Schools enrollment analysis** — stakeholder analytics that produced a Data Analyst / HRIS offer later withdrawn for **budget**, not performance
 
-🌱 Currently studying  
-   CompTIA Security+ · AWS Solutions Architect
+### Stack
 
-💬 Ask me about  
-   IT Cloud certifications · Infrustructure automation · RHEL · Fedora · Kali· Ubuntu
-   Standing up infrastructure from scratch
+`Docker` · `Kubernetes` · `Terraform` · `Ansible` · `AWS` · `Azure` · `GitHub Actions` · `Jenkins` · `Python` · `Bash` · `PowerShell` · `Linux (RHEL, Fedora, Ubuntu)`
 
-📫 Reach me → edmejia@pm.me (ProtonMail — 
-   because email privacy matters)
+### Currently studying
+
+CompTIA Security+ · AWS Solutions Architect
+
+### Ask me about
+
+Cloud certifications · infrastructure automation · standing up reliable environments from scratch · turning support/ops troubleshooting into cloud incident discipline
+
+### Contact
+
+- Email: `edmejia@pm.me`
+- LinkedIn: [linkedin.com/in/enmanuelmejia](https://www.linkedin.com/in/enmanuelmejia)
+- Site: [interstitiumlabs.dev](https://interstitiumlabs.dev)
+
+Open to **Junior Cloud / DevOps / Cloud Support / Cloud Ops / junior SRE** roles in **Boston**, **Greater Orlando**, **Miami–Fort Lauderdale**, and **Remote**.
