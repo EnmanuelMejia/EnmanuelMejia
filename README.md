@@ -1,4 +1,4 @@
-## Hi, I'm Enmanuel 👋
+## Hi, I'm Enmanuel
 
 Junior **Cloud / DevOps** engineer with a paid background in **IT operations and technical support** — incident troubleshooting, Linux/Windows administration, and hybrid cloud services for large user environments.
 
@@ -8,7 +8,6 @@ I build and demo cloud-native labs that hiring managers can inspect end-to-end.
 
 - **[devops-superlab](https://github.com/EnmanuelMejia/devops-superlab)** — Kubernetes + GitOps + CI/CD + IaC **portfolio lab** (not paid production), designed for live interview demos
 - **[Interstitium Labs](https://interstitiumlabs.dev)** — knowledge operating system I’m building for research, runbooks, and technical decisions
-- **Lawrence Public Schools enrollment analysis** — stakeholder analytics that produced a Data Analyst / HRIS offer later withdrawn for **budget**, not performance
 
 ### Stack
 
