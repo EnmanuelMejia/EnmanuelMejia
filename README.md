@@ -1,30 +1,23 @@
-## Hi, I'm Enmanuel
+# Enmanuel D. Mejia
 
-Junior **Cloud / DevOps** engineer with a paid background in **IT operations and technical support** — incident troubleshooting, Linux/Windows administration, and hybrid cloud services for large user environments.
+Cloud / DevOps / DevSecOps engineer building inspectable infrastructure, automation, and software systems.
 
-I build and demo cloud-native labs that hiring managers can inspect end-to-end.
+## Portfolio
 
-### Featured work
+- **[enmanuelmejia.com](https://enmanuelmejia.com)** — professional portfolio
+- **[Interstitium Labs](https://interstitiumlabs.dev)** — knowledge operating system, adaptive learning, technical labs, research, and AI coaching
+- **[devops-superlab](https://github.com/EnmanuelMejia/devops-superlab)** — Kubernetes, GitOps, CI/CD, IaC, policy, observability, and security portfolio lab
 
-- **[devops-superlab](https://github.com/EnmanuelMejia/devops-superlab)** — Kubernetes + GitOps + CI/CD + IaC **portfolio lab** (not paid production), designed for live interview demos
-- **[Interstitium Labs](https://interstitiumlabs.dev)** — knowledge operating system I’m building for research, runbooks, and technical decisions
+## Focus
 
-### Stack
+`RHEL` · `Linux` · `Kubernetes` · `Docker` · `Podman` · `Terraform` · `Ansible` · `AWS` · `Azure` · `GCP` · `Cloudflare` · `GitHub Actions` · `Jenkins` · `Python` · `Bash` · `PowerShell` · `Java` · `C#/.NET` · `C/C++` · `SQL`
 
-`Docker` · `Kubernetes` · `Terraform` · `Ansible` · `AWS` · `Azure` · `GitHub Actions` · `Jenkins` · `Python` · `Bash` · `PowerShell` · `Linux (RHEL, Fedora, Ubuntu)`
+I bring a decade of high-discipline semiconductor operations and analytics experience into modern cloud and software engineering. I care about repeatable builds, reliable operations, clear failure modes, security controls, and technical work that can be demonstrated instead of merely described.
 
-### Currently studying
+## Contact
 
-CompTIA Security+ · AWS Solutions Architect
+- **LinkedIn:** [linkedin.com/in/enmanuelmejia](https://www.linkedin.com/in/enmanuelmejia)
+- **GitHub:** [github.com/EnmanuelMejia](https://github.com/EnmanuelMejia)
+- **Email:** `edmejia@pm.me`
 
-### Ask me about
-
-Cloud certifications · infrastructure automation · standing up reliable environments from scratch · turning support/ops troubleshooting into cloud incident discipline
-
-### Contact
-
-- Email: `edmejia@pm.me`
-- LinkedIn: [linkedin.com/in/enmanuelmejia](https://www.linkedin.com/in/enmanuelmejia)
-- Site: [interstitiumlabs.dev](https://interstitiumlabs.dev)
-
-Open to **Junior Cloud / DevOps / Cloud Support / Cloud Ops / junior SRE** roles in **Boston**, **Greater Orlando**, **Miami–Fort Lauderdale**, and **Remote**.
+Open to Cloud, DevOps, DevSecOps, SRE, platform, infrastructure, software, and systems engineering opportunities.
