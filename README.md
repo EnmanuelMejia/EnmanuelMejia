@@ -4,7 +4,7 @@ Cloud / DevOps / DevSecOps engineer building inspectable infrastructure, automat
 
 ## Portfolio
 
-- **[enmanuelmejia.com](https://enmanuelmejia.com)** — professional portfolio
+- **[enmanueldmejia.com](https://enmanueldmejia.com)** — professional portfolio
 - **[Interstitium Labs](https://interstitiumlabs.dev)** — knowledge operating system, adaptive learning, technical labs, research, and AI coaching
 - **[devops-superlab](https://github.com/EnmanuelMejia/devops-superlab)** — Kubernetes, GitOps, CI/CD, IaC, policy, observability, and security portfolio lab
 

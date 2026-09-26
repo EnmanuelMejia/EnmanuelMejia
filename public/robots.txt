@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://enmanuelmejia.com/sitemap.xml
+Sitemap: https://enmanueldmejia.com/sitemap.xml

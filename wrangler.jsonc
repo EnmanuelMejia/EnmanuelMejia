@@ -9,11 +9,11 @@
   },
   "routes": [
     {
-      "pattern": "enmanuelmejia.com",
+      "pattern": "enmanueldmejia.com",
       "custom_domain": true
     },
     {
-      "pattern": "www.enmanuelmejia.com",
+      "pattern": "www.enmanueldmejia.com",
       "custom_domain": true
     }
   ]
