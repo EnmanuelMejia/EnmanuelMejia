@@ -35,6 +35,34 @@ test("redirects are bounded in browser caches", async () => {
   assert.equal(res.headers.get("cache-control"), "public, max-age=3600");
 });
 
+test("HTML keeps its status and headers and opts out of edge script injection", async () => {
+  const html = (status) => ({
+    ASSETS: {
+      fetch: async () =>
+        new Response("<!doctype html>", {
+          status,
+          headers: {
+            "Content-Type": "text/html",
+            "Cache-Control": "public, max-age=0, must-revalidate",
+            "Content-Security-Policy": "default-src 'self'",
+          },
+        }),
+    },
+  });
+  for (const status of [200, 404]) {
+    const res = await worker.fetch(new Request("https://enmanueldmejia.com/"), html(status));
+    assert.equal(res.status, status);
+    assert.equal(res.headers.get("cache-control"), "public, max-age=0, must-revalidate, no-transform");
+    assert.equal(res.headers.get("content-security-policy"), "default-src 'self'");
+  }
+});
+
+test("non-HTML assets pass through untouched", async () => {
+  const image = new Response("x", { headers: { "Content-Type": "image/webp", "Cache-Control": "public, max-age=31536000, immutable" } });
+  const res = await worker.fetch(new Request("https://enmanueldmejia.com/assets/a.webp"), { ASSETS: { fetch: async () => image } });
+  assert.equal(res, image);
+});
+
 test("other hosts, such as local development, are never redirected", async () => {
   assert.equal(await run("http://127.0.0.1:8787/"), served);
   assert.equal(await run("http://localhost:8787/"), served);

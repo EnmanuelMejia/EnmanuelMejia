@@ -6,9 +6,15 @@
 // https://enmanueldmejia.com with the path and query preserved. Everything
 // else is served from ./public by the assets binding, which also applies
 // public/_headers.
+//
+// HTML responses also get Cache-Control: no-transform. Without it the zone's
+// JavaScript Detections injects an inline script into every page, which the
+// strict CSP (script-src 'self') blocks, leaving a CSP error in the console.
+// Cloudflare skips that injection when the origin sends no-transform.
 
 const CANONICAL_HOST = "enmanueldmejia.com";
 const PORTFOLIO_HOSTS = new Set([CANONICAL_HOST, `www.${CANONICAL_HOST}`]);
+const HTML_CACHE_CONTROL = "public, max-age=0, must-revalidate, no-transform";
 
 export default {
   async fetch(request, env) {
@@ -32,6 +38,16 @@ export default {
       });
     }
 
-    return env.ASSETS.fetch(request);
+    const response = await env.ASSETS.fetch(request);
+    const type = response.headers.get("Content-Type") || "";
+    if (!type.startsWith("text/html")) return response;
+
+    const headers = new Headers(response.headers);
+    headers.set("Cache-Control", HTML_CACHE_CONTROL);
+    return new Response(response.body, {
+      status: response.status,
+      statusText: response.statusText,
+      headers,
+    });
   },
 };

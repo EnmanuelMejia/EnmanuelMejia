@@ -7,7 +7,7 @@ that serves the static files in `./public`.
 | --- | --- |
 | Pages, styles, images | `public/` (images under `public/assets/` carry a content hash and are cached as immutable) |
 | Response headers (CSP, HSTS, framing, caching) | `public/_headers` |
-| Canonical-host redirects | `src/worker.js` |
+| Canonical-host redirects, and `Cache-Control: no-transform` on HTML so the zone's JavaScript Detections does not inject an inline script the CSP would block | `src/worker.js` |
 | Worker, custom domains, asset settings | `wrangler.jsonc` |
 
 ## Hostnames
