@@ -8,7 +8,7 @@
   },
   "scripts": {
     "check": "node scripts/check-portfolio.mjs",
-    "test": "node --test",
+    "test": "node --test test/worker.test.mjs",
     "test:browser": "node scripts/test-portfolio-browser.mjs",
     "dev": "wrangler dev",
     "deploy:dry-run": "wrangler deploy --dry-run"
