@@ -1,7 +1,12 @@
 # Deploying the portfolio
 
-The site at https://enmanueldmejia.com is one Cloudflare Worker, `enmanuel-mejia`,
-that serves the static files in `./public`.
+This repository contains the portfolio pages and a canonical-host Worker intended for `enmanuel-mejia`. Both portfolio custom domains currently target that Worker. A source check is separate from proving which complete asset bundle is live.
+
+## Release gate observed October 7, 2026
+
+The live Worker also serves `/bootcamps/` and `/assessments/`, which are absent from this repository. Public requests returned `200` on both apex and `www`, a relative `/` canonical URL, and no CSP/HSTS headers on the portfolio HTML. Those observations differ from the canonical-host code and asset headers checked in here. The active cloud version at inspection was `7d4560bf-c9f8-4d26-b31d-ec81de78d69d`, deployed October 6, 2026.
+
+Before replacing the live asset bundle, reconcile its source, preserve the learning hubs and their routes, run the source/browser checks below, and record a fresh target-specific rollback version. This branch prepares portfolio improvements; it does not establish that a complete replacement is safe to deploy. Do not remove a learning hub or an unrelated resource to make the source match.
 
 | Piece | Where |
 | --- | --- |
@@ -10,9 +15,9 @@ that serves the static files in `./public`.
 | Canonical-host redirects; `Cache-Control: no-transform` on HTML so the zone's JavaScript Detections does not inject an inline script the CSP would block; Brotli or gzip compression of HTML, which `no-transform` stops the edge from doing | `src/worker.js` |
 | Worker, custom domains, asset settings | `wrangler.jsonc` |
 
-## Hostnames
+## Intended behavior of this source
 
-- `enmanueldmejia.com` is canonical and serves the site over HTTPS.
+- `enmanueldmejia.com` is the configured canonical host.
 - `https://www.enmanueldmejia.com` answers with one `301` to
   `https://enmanueldmejia.com`, keeping the path and query.
 - Plain HTTP is upgraded first by the zone's Always Use HTTPS, on the same
@@ -29,12 +34,14 @@ that serves the static files in `./public`.
 ## Deploy
 
 ```sh
-node --test                          # redirect and HTML header rules in src/worker.js
-npx wrangler@4.141.0 deploy --dry-run
-npx wrangler@4.141.0 deploy
+npm ci --ignore-scripts
+npm run check
+npm test                            # canonical-host and HTML header behavior
+npm run test:browser                 # local browser accessibility and navigation
+npm run deploy:dry-run               # package validation; does not change production
 ```
 
-Wrangler needs a Cloudflare login (`wrangler login`, or `wrangler login --device`
+After the release gate is satisfied, use the pinned project Wrangler to deploy. Wrangler needs a Cloudflare login (`wrangler login`, or `wrangler login --device`
 from a container or remote shell) or a scoped API token in
 `CLOUDFLARE_API_TOKEN`. The token needs Workers Scripts Edit on the account and
 Workers Routes Edit on the enmanueldmejia.com zone. Never commit credentials.
