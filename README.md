@@ -18,6 +18,6 @@ I bring a decade of high-discipline semiconductor operations and analytics exper
 
 - **LinkedIn:** [linkedin.com/in/enmanuelmejia](https://www.linkedin.com/in/enmanuelmejia)
 - **GitHub:** [github.com/EnmanuelMejia](https://github.com/EnmanuelMejia)
-- **Email:** `edmejia@pm.me`
+- **Email:** `mejiaenmanueld@gmail.com`
 
 Open to Cloud, DevOps, DevSecOps, SRE, platform, infrastructure, software, and systems engineering opportunities.
