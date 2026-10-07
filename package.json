@@ -1,0 +1,21 @@
+{
+  "name": "enmanuel-mejia-portfolio",
+  "private": true,
+  "version": "1.1.0",
+  "type": "module",
+  "overrides": {
+    "sharp": "0.35.5"
+  },
+  "scripts": {
+    "check": "node scripts/check-portfolio.mjs",
+    "test": "node --test test/worker.test.mjs",
+    "test:browser": "node scripts/test-portfolio-browser.mjs",
+    "dev": "wrangler dev",
+    "deploy:dry-run": "wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "playwright": "1.63.0",
+    "wrangler": "4.148.0"
+  }
+}
