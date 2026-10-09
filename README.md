@@ -17,9 +17,16 @@ My labs and proposals demonstrate personal work. They do not represent paid prod
 
 My background includes IT support, technical operations, semiconductor manufacturing, and analytics. I apply that troubleshooting and documentation discipline to Linux, automation, containers, and software projects. The repositories distinguish working features, starter configurations, and planned work.
 
+## Background highlights
+
+- **IT Operations (Data Vimenca)** — Delivered IT services to 1,700+ users leading a 22-person support org in hybrid AWS/Azure; cut manual VoIP/PBX intervention 20% with Python/Bash automation on RHEL; administered Windows Server 2022, Active Directory, DNS, DHCP.
+- **Semiconductor Manufacturing (Intel)** — Generated $70M+ in savings co-developing 300mm test-wafer routes (Technology Manufacturing Group Excellence Award); led teams of up to 19 technicians across 200mm/300mm fabs; piloted a fab-wide safety initiative adopted as the factory standard.
+- **Cost Analytics (Intel)** — Improved cost accuracy 20% launching the iCOST inventory process; reconciled SOX controls across SQL Server, Oracle Database, and SAP for 140+ analysts; drove software lifecycle changes via SQL scripting and Unix/C++ utilities.
+- **IT Labs (Boston University)** — Sustained 99.9% lab uptime across 500+ devices; built the Ubuntu Linux lab image with VMware/VirtualBox; Staff Excellence Award.
+
 ## Inspect this portfolio
 
-The website is in [`public/`](public/), with its canonical-host Worker in [`src/worker.js`](src/worker.js). See [`DEPLOY.md`](DEPLOY.md) for source validation and the release gate. GitHub source and a reachable website are separate evidence: the current live portfolio also hosts learning hubs whose deployment source must be reconciled before replacing its complete asset bundle.
+This is a README-only profile repository. Project source lives in the individual repositories linked under Portfolio above — each README states what is working, what is starter configuration, and what is planned.
 
 ## Contact
 
