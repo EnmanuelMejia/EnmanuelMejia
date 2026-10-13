@@ -39,7 +39,7 @@ try {
     page.on('pageerror', error => errors.push(error.message));
     page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
     await page.goto(url, { waitUntil: 'networkidle' });
-    check(await page.title() === 'Enmanuel D. Mejia | Junior Cloud & DevOps Portfolio', 'career-specific title');
+    check(await page.title() === 'Enmanuel D. Mejia | IT Infrastructure Engineer & Founder, Interstitium Labs', 'career-specific title');
     check(await page.locator('main h1').count() === 1, 'one primary heading');
     check(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), 'no horizontal overflow');
     check(await page.locator('.portrait-wrap img').evaluate(image => image.complete && image.naturalWidth > 0), 'portrait loaded');
