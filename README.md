@@ -4,7 +4,7 @@
 
 **IT Systems · DevSecOps · Founder, Interstitium Labs**
 
-Junior cloud / DevOps candidate with an IT support background. I build personal infrastructure labs and independent technical learning resources through Interstitium Labs.
+IT Infrastructure Engineer with five years running IT operations — Windows Server, Active Directory, Hyper-V, SQL Server, networking/VPN. I build independent technical learning resources through Interstitium Labs.
 
 </div>
 
@@ -16,14 +16,16 @@ Junior cloud / DevOps candidate with an IT support background. I build personal 
 |---|---|
 | **[🌐 Personal portfolio](https://enmanueldmejia.com)** | Selected projects, background, and contact |
 | **[🧬 Interstitium Labs](https://interstitiumlabs.dev)** | Independent technical guides, learning resources, Noah tutoring, and a jobs workspace |
-| **[⚙️ DevOps SuperLab](https://github.com/EnmanuelMejia/devops-superlab)** | Kubernetes, GitOps, CI/CD, and policy practice with explicit implementation status |
+| **[⚙️ DevOps SuperLab](https://github.com/EnmanuelMejia/devops-superlab)** | Personal DevOps lab — containers, CI/CD, and IaC study projects with explicit implementation status |
 | **[🤖 Print-manufacturing AI architecture](https://github.com/EnmanuelMejia/ai-vision-deck-print-manufacturing)** | Anonymized personal interview proposal — pitch deck + 48-page technical ultraplan |
 
 My labs and proposals demonstrate personal work. They do not represent paid production DevOps employment, commissioned consulting, or vendor certification. CompTIA A+ is my confirmed credential; other certification-prep repositories are study resources.
 
 ## 🛠️ Work and study focus
 
-`RHEL` · `Linux` · `Kubernetes` · `Docker` · `Podman` · `Terraform` · `Ansible` · `AWS` · `Azure` · `GCP` · `Cloudflare` · `GitHub Actions` · `Jenkins` · `Python` · `Bash` · `PowerShell` · `Java` · `C#/.NET` · `C/C++` · `SQL`
+`Windows Server` · `Active Directory` · `Hyper-V` · `SQL Server` · `RHEL` · `Linux` · `Networking/VPN` · `AWS` · `Azure` · `Cloudflare` · `GitHub Actions` · `Python` · `Bash` · `PowerShell` · `Java` · `C#/.NET` · `C/C++` · `SQL`
+
+Currently studying: `Kubernetes` · `Docker` · `Podman` · `Terraform` · `Ansible` · `GCP` · `Jenkins`
 
 My background includes IT support, technical operations, semiconductor manufacturing, and analytics. I apply that troubleshooting and documentation discipline to Linux, automation, containers, and software projects. The repositories distinguish working features, starter configurations, and planned work.
 
@@ -44,4 +46,4 @@ This is a README-only profile repository. Project source lives in the individual
 - **GitHub:** [github.com/EnmanuelMejia](https://github.com/EnmanuelMejia)
 - **Email:** [mejiaenmanueld@gmail.com](mailto:mejiaenmanueld@gmail.com)
 
-Seeking junior cloud / DevOps and IT support opportunities, with room to grow in infrastructure, security, and software engineering.
+Open to IT infrastructure, systems administration, and solutions engineering roles in Orlando, FL.
