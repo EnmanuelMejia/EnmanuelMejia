@@ -4,7 +4,7 @@
 
 **IT Systems · DevSecOps · Founder, Interstitium Labs**
 
-Junior cloud / DevOps candidate with an IT support background. I build personal infrastructure labs and independent technical learning resources through Interstitium Labs.
+Cloud / DevOps engineer with an IT infrastructure and support-operations background. I build personal infrastructure labs and independent technical learning resources through Interstitium Labs.
 
 </div>
 
@@ -29,10 +29,10 @@ My background includes IT support, technical operations, semiconductor manufactu
 
 ## 📌 Background highlights
 
-- **IT Operations (Data Vimenca)** — Delivered IT services to 1,700+ users leading a 22-person support org in hybrid AWS/Azure; cut manual VoIP/PBX intervention 20% with Python/Bash automation on RHEL; administered Windows Server 2022, Active Directory, DNS, DHCP.
-- **Semiconductor Manufacturing (Intel)** — Generated $70M+ in savings co-developing 300mm test-wafer routes (Technology Manufacturing Group Excellence Award); led teams of up to 19 technicians across 200mm/300mm fabs; piloted a fab-wide safety initiative adopted as the factory standard.
-- **Cost Analytics (Intel)** — Improved cost accuracy 20% launching the iCOST inventory process; reconciled SOX controls across SQL Server, Oracle Database, and SAP for 140+ analysts; drove software lifecycle changes via SQL scripting and Unix/C++ utilities.
-- **IT Labs (Boston University)** — Sustained 99.9% lab uptime across 500+ devices; built the Ubuntu Linux lab image with VMware/VirtualBox; Staff Excellence Award.
+- **IT Operations (Data Vimenca)** — Delivered IT services to 1,700+ users leading a 22-person support org in hybrid AWS/Azure; cut manual VoIP/PBX intervention with Python/Bash automation on RHEL; administered Windows Server 2022, Active Directory, DNS, DHCP.
+- **Semiconductor Manufacturing (Intel)** — Co-developed 300mm test-wafer routes (Technology Manufacturing Group Excellence Award); piloted a fab-wide safety initiative adopted as the factory standard.
+- **Cost Analytics (Intel)** — Improved cost accuracy launching the iCOST inventory process; reconciled SOX controls across SQL Server, Oracle Database, and SAP for 140+ analysts; drove software lifecycle changes via SQL scripting and Unix/C++ utilities.
+- **IT Labs (Boston University)** — Sustained lab uptime across 500+ devices; built the Ubuntu Linux lab image with VMware/VirtualBox; Staff Excellence Award.
 
 ## 🔍 Inspect this portfolio
 
@@ -44,4 +44,4 @@ This is a README-only profile repository. Project source lives in the individual
 - **GitHub:** [github.com/EnmanuelMejia](https://github.com/EnmanuelMejia)
 - **Email:** [mejiaenmanueld@gmail.com](mailto:mejiaenmanueld@gmail.com)
 
-Seeking junior cloud / DevOps and IT support opportunities, with room to grow in infrastructure, security, and software engineering.
+Seeking cloud / DevOps and IT infrastructure roles, with depth in infrastructure, security, and software engineering.
