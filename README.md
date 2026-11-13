@@ -36,6 +36,27 @@ My background includes IT support, technical operations, semiconductor manufactu
 - **Cost Analytics (Intel)** — Improved cost accuracy 20% launching the iCOST inventory process; reconciled SOX controls across SQL Server, Oracle Database, and SAP for 140+ analysts; drove software lifecycle changes via SQL scripting and Unix/C++ utilities.
 - **IT Labs (Boston University)** — Sustained 99.9% lab uptime across 500+ devices; built the Ubuntu Linux lab image with VMware/VirtualBox; Staff Excellence Award.
 
+## 🏢 Experience — the full record
+
+- **Founder & Platform Engineer — Interstitium Labs** (Apr 2026 – present) · [interstitiumlabs.dev](https://interstitiumlabs.dev)
+- **IT Operations Engineer II — Data Vimenca** (Aug 2021 – Apr 2026)
+- **Retention Specialist, Technical Product Support — Philips Lifeline** (Oct 2018 – Aug 2021)
+- **Retention Specialist — Comcast** (Mar 2015 – Apr 2017)
+- **IT Labs Supervisor — Boston University** (Jan – Jun 2013)
+- **Polartec** (Jun 2011 – Mar 2012)
+- **Materion** (Sep 2010 – Nov 2011)
+- **Financial Analyst — Intel** (Oct 2000 – Jul 2009)
+- **Convergys** (Feb – Oct 2000)
+- **Fidelity Investments** (Jul 1997 – May 1999)
+
+## 🎓 Education
+
+- **B.S., Business Management & Finance — University of Phoenix** (2006)
+- **Post-bachelor's Certificate, Computer Science — Boston University Metropolitan College** (2013)
+- **IT Support — Per Scholas** (Oct 2021)
+- **A.S., Electronics Engineering — ITT Technical Institute** (1997 – 2000)
+- **High School Diploma — Haverhill High School** (1994)
+
 ## 🔍 Inspect this portfolio
 
 This is a README-only profile repository. Project source lives in the individual repositories linked under Portfolio above — each README states what is working, what is starter configuration, and what is planned.
@@ -46,4 +67,4 @@ This is a README-only profile repository. Project source lives in the individual
 - **GitHub:** [github.com/EnmanuelMejia](https://github.com/EnmanuelMejia)
 - **Email:** [mejiaenmanueld@gmail.com](mailto:mejiaenmanueld@gmail.com)
 
-Open to IT infrastructure, systems administration, and solutions engineering roles in Orlando, FL.
+Open to IT infrastructure, systems administration, and solutions engineering roles in the Greater Orlando area (Apopka, FL).
