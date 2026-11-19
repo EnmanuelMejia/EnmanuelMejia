@@ -16,6 +16,7 @@ IT Infrastructure Engineer with five years running IT operations — Windows Ser
 |---|---|
 | **[🌐 Personal portfolio](https://enmanueldmejia.com)** | Selected projects, background, and contact |
 | **[🧬 Interstitium Labs](https://interstitiumlabs.dev)** | Independent technical guides, learning resources, Noah tutoring, and a jobs workspace |
+| **[🤝 AI Lounge](https://ai.lounge.ai/@enmanuelmejia)** | Member — AI Founder Community |
 | **[⚙️ DevOps SuperLab](https://github.com/EnmanuelMejia/devops-superlab)** | Personal DevOps lab — containers, CI/CD, and IaC study projects with explicit implementation status |
 | **[🤖 Print-manufacturing AI architecture](https://github.com/EnmanuelMejia/ai-vision-deck-print-manufacturing)** | Anonymized personal interview proposal — pitch deck + 48-page technical ultraplan |
 
